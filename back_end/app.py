@@ -152,24 +152,6 @@ def toDB(result_style):
     db.insert(gender, age, result_style)
 
 
-# ============ Test) Dash + HTML : 정적인 데시보드(그래프) ==============
-# ========     결과를 html로 저장하여 뿌리는 형태  ==============
-
-@app.route('/dash_style')
-def dash_style():
-    return render_template('dash_style.html')
-
-
-@app.route('/dash_gender')
-def dash_gender():
-    return render_template('dash_gender.html')
-
-
-@app.route('/dash_age')
-def dash_age():
-    return render_template('dash_age.html')
-
-
 # ============= HTML TEST ====================
 
 
