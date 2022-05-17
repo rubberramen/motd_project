@@ -2,8 +2,6 @@
 <br>
 
 ### 1. 프로젝트 개요
-<br>
-
 - 팀명 : 개발바닥 : dev_from the bottom
 - 팀원 : 왕찬현(팀장), 양x혜, 이x섭, 이x름
 - 프로젝트명 : #motd, How Do I Look?
