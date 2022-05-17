@@ -1,7 +1,7 @@
 import pymysql
 
 
-# ========= 수정 필요!!! ============
+# ========= DB 정보 ============
 
 host = 'first-db-busan-final.csxhjhypihxx.ap-northeast-2.rds.amazonaws.com'
 user = 'root'
@@ -38,7 +38,7 @@ def insert(gender, age, result_style):
 
 
 
-# ========= <select : 결과 조회> : 시각화 할때 필요 ============
+# ========= <select : 결과 조회> ============
 
 
 def selectAll():    

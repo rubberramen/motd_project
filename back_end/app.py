@@ -15,7 +15,8 @@ app.config['JSON_AS_ASCII'] = False
 CORS(app)  # cors 설정 -> 교차검증
 UPLOAD_FOLD = r'.\UPLOAD_FOLDER' 
 app.config['UPLOAD_FOLDER'] = r'.\UPLOAD_FOLDER'
-# ========== <딥러닝 모델 호출(?)> ===================================================
+
+# ========== <딥러닝 모델 호출> ===================================================
 
 global model
 model = load_model('47-0.310246.h5',
@@ -151,8 +152,8 @@ def toDB(result_style):
     db.insert(gender, age, result_style)
 
 
-# ============ Dash + HTML : 정적인 데시보드(그래프) ==============
-# ========     결과를 html로 저장하여 뿌리는 형태 -> 최악의 경우 고려
+# ============ Test) Dash + HTML : 정적인 데시보드(그래프) ==============
+# ========     결과를 html로 저장하여 뿌리는 형태  ==============
 
 @app.route('/dash_style')
 def dash_style():
