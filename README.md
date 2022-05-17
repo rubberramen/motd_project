@@ -1,5 +1,8 @@
-## #motd, How Do I Look? : 딥러닝을 활용한 사용자의 패션 스타일 분류 및 공유 서비스
-<br>
+## Project : #motd, How Do I Look?
+<img src="https://user-images.githubusercontent.com/96553431/168752791-4cda4d98-fb79-4561-9c28-7941b6bb9d49.png" width="175" height="150"><br>
+
+### -딥러닝을 활용한 사용자의 패션 스타일 분류 및 공유 서비스
+---
 
 ### 1. 프로젝트 개요
 - 팀명 : 개발바닥 : dev_from the bottom
@@ -59,6 +62,9 @@
 - 데이터 분석 : 성별, 연령별 스타일 트랜드 대시보드 제공
 
 ### 5. UI 샘플
+<img width="722" alt="20220517151925" src="https://user-images.githubusercontent.com/96553431/168753070-59b6f660-5188-457b-9bf8-352b1a21fb6e.png">
+<img width="703" alt="20220517151942" src="https://user-images.githubusercontent.com/96553431/168753157-a14bdf70-d921-4168-a8a7-03d3b4b64e76.png">
+<img width="606" alt="20220517152010" src="https://user-images.githubusercontent.com/96553431/168753232-9d08fff1-a11d-4081-ba18-bcedcc0f3822.png">
 
 ### 6. 보완점
 - 기능
